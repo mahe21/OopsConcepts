@@ -6,8 +6,11 @@ using System.Threading.Tasks;
 
 namespace OopsConcept
 {
-    public class Interface2ndClass
+     public class InterfaceClassTwo : Interface_Two 
     {
-
+        public void two()
+        {
+            Console.WriteLine("mahesh kumar V");
+        }
     }
 }
