@@ -9,13 +9,14 @@
             Interface_Two interface_Two = new Program();
             interface_Two.two();
             Console.ReadLine();
-            InterfaceClassTwo two = new InterfaceClassTwo();
-            two.one();
+            InterfaceClassTwo interfaceClassTwo = new InterfaceClassTwo();
+            interfaceClassTwo.two();
+
         }
 
         public void one()
         {
-            Console.WriteLine("Mahesh v");
+            Console.WriteLine("Mahesh");
         }
 
         public void two()
